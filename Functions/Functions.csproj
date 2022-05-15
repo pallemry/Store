@@ -1,0 +1,76 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	
+  <PropertyGroup>
+    <UseWindowsForms>true</UseWindowsForms>
+  <TargetFramework>netcoreapp3.1</TargetFramework>
+	  <ApplicationIcon>603197.ico</ApplicationIcon>
+	  <Win32Resource />
+	  <Version>1.1.0</Version>
+	  <Authors>Yishai Israel</Authors>
+	  <Company>ACT ™ ©</Company>
+	  <Description>REMOVED:
+Support for : Graph Test as for now, the reason being is unavaliable reference from Graph Test to this Function
+FIXED: 
+ReadKey(&lt;false&gt;) for the PrintFormat.</Description>
+	  <Copyright>™</Copyright>
+	  <PackageLicenseExpression></PackageLicenseExpression>
+	  <PackageLicenseFile></PackageLicenseFile>
+	  <PackageIcon>603197.png</PackageIcon>
+	  <PackageIconUrl />
+	  <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageReleaseNotes>Fixed PrintFormat Method.</PackageReleaseNotes>
+	  <PackageTags>C# Advanced API</PackageTags>
+	  <NeutralLanguage>en</NeutralLanguage>
+	  <AssemblyVersion>1.1.0.0</AssemblyVersion>
+	  <FileVersion>1.1.0.0</FileVersion>
+	  <PackageProjectUrl>https://google.com/</PackageProjectUrl>
+	  	  <UseWindowsForms>true</UseWindowsForms>
+	  <LangVersion>9</LangVersion>
+  </PropertyGroup>
+	
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <UseWindowsForms>true</UseWindowsForms>
+
+	  <DocumentationFile>C:\Users\yisha\Downloads\Store Solution\Functions\Functions.xml</DocumentationFile>
+  </PropertyGroup>
+	
+  <ItemGroup>
+    <Compile Remove="obj\**" />
+    <EmbeddedResource Remove="obj\**" />
+    <None Remove="obj\**" />
+    <None Include="..\..\34c6551de3120d74ee79059b5cd3fcae - computer-icon-cloud-computing.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="Resources\603197.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+	
+  <ItemGroup>
+    <Content Include="Functions.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="obj\Debug\netcoreapp3.1\" />
+    <Folder Include="XML Docs\netcoreapp3.1\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

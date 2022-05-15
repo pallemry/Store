@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "RideAndTrip/1.0.0": {
+        "dependencies": {
+          "Functions": "1.1.0"
+        },
+        "runtime": {
+          "RideAndTrip.dll": {}
+        }
+      },
+      "Functions/1.1.0": {
+        "runtime": {
+          "Functions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RideAndTrip/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Functions/1.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

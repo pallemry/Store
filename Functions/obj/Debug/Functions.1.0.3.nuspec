@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Functions</id>
+    <version>1.0.3</version>
+    <authors>Yishai Israel</authors>
+    <icon>603197.png</icon>
+    <projectUrl>https://google.com/</projectUrl>
+    <description>This API Allows all sort of Easier life with C# starting from extension methods for number like IsInRange(max, min), all
+the way to advanced console printing which is very usful and can bring life into your console application
+NOTE: The Advanced Printing, will take some more memory to function, so beaware.</description>
+    <releaseNotes>Fixed PrintFormat Method.</releaseNotes>
+    <copyright>™</copyright>
+    <tags>C# Advanced API</tags>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/netcoreapp3.1/Functions.xml" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\yisha\Downloads\Store Solution\Functions\bin\Debug\netcoreapp3.1\Functions.dll" target="lib\netcoreapp3.1\Functions.dll" />
+    <file src="C:\Users\yisha\Downloads\Store Solution\Functions\bin\Debug\netcoreapp3.1\Functions.xml" target="lib\netcoreapp3.1\Functions.xml" />
+    <file src="C:\Users\yisha\Downloads\Store Solution\Functions\Functions.xml" target="content\Functions.xml" />
+    <file src="C:\Users\yisha\Downloads\Store Solution\Functions\Functions.xml" target="contentFiles\any\netcoreapp3.1\Functions.xml" />
+    <file src="C:\Users\yisha\Downloads\34c6551de3120d74ee79059b5cd3fcae - computer-icon-cloud-computing.jpg" target="34c6551de3120d74ee79059b5cd3fcae - computer-icon-cloud-computing.jpg" />
+    <file src="C:\Users\yisha\Downloads\Store Solution\Functions\Resources\603197.png" target="603197.png" />
+  </files>
+</package>

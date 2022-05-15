@@ -1,0 +1,55 @@
+C:\Users\yisha\Downloads\Test\bin\Debug\netcoreapp3.1\Test.exe
+C:\Users\yisha\Downloads\Test\bin\Debug\netcoreapp3.1\Test.deps.json
+C:\Users\yisha\Downloads\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.json
+C:\Users\yisha\Downloads\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.dev.json
+C:\Users\yisha\Downloads\Test\bin\Debug\netcoreapp3.1\Test.dll
+C:\Users\yisha\Downloads\Test\bin\Debug\netcoreapp3.1\Test.pdb
+C:\Users\yisha\Downloads\Test\bin\Debug\netcoreapp3.1\store.exe
+C:\Users\yisha\Downloads\Test\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\yisha\Downloads\Test\bin\Debug\netcoreapp3.1\store.pdb
+C:\Users\yisha\Downloads\Test\bin\Debug\netcoreapp3.1\store.exe.config
+C:\Users\yisha\Downloads\Test\bin\Debug\netcoreapp3.1\EntityFramework.xml
+C:\Users\yisha\Downloads\Test\obj\Debug\netcoreapp3.1\Test.csproj.AssemblyReference.cache
+C:\Users\yisha\Downloads\Test\obj\Debug\netcoreapp3.1\Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yisha\Downloads\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfoInputs.cache
+C:\Users\yisha\Downloads\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfo.cs
+C:\Users\yisha\Downloads\Test\obj\Debug\netcoreapp3.1\Test.csproj.CoreCompileInputs.cache
+C:\Users\yisha\Downloads\Test\obj\Debug\netcoreapp3.1\Test.dll
+C:\Users\yisha\Downloads\Test\obj\Debug\netcoreapp3.1\Test.pdb
+C:\Users\yisha\Downloads\Test\obj\Debug\netcoreapp3.1\Test.genruntimeconfig.cache
+C:\Users\yisha\Downloads\Test\obj\Debug\netcoreapp3.1\Test.csproj.CopyComplete
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\Test.exe
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\Test.deps.json
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.json
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.dev.json
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\Test.dll
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\Test.pdb
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\store.exe
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\store.pdb
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\store.exe.config
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\EntityFramework.xml
+C:\Users\yisha\Downloads\Store Solution\Test\obj\Debug\netcoreapp3.1\Test.csproj.AssemblyReference.cache
+C:\Users\yisha\Downloads\Store Solution\Test\obj\Debug\netcoreapp3.1\Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yisha\Downloads\Store Solution\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfoInputs.cache
+C:\Users\yisha\Downloads\Store Solution\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfo.cs
+C:\Users\yisha\Downloads\Store Solution\Test\obj\Debug\netcoreapp3.1\Test.csproj.CoreCompileInputs.cache
+C:\Users\yisha\Downloads\Store Solution\Test\obj\Debug\netcoreapp3.1\Test.csproj.CopyComplete
+C:\Users\yisha\Downloads\Store Solution\Test\obj\Debug\netcoreapp3.1\Test.dll
+C:\Users\yisha\Downloads\Store Solution\Test\obj\Debug\netcoreapp3.1\Test.pdb
+C:\Users\yisha\Downloads\Store Solution\Test\obj\Debug\netcoreapp3.1\Test.genruntimeconfig.cache
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\Functions.dll
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\Functions.pdb
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\Functions.xml
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\QueuesSpooler.deps.json
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\QueuesSpooler.runtimeconfig.json
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\QueuesSpooler.runtimeconfig.dev.json
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\RideAndTrip.deps.json
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\RideAndTrip.runtimeconfig.json
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\RideAndTrip.runtimeconfig.dev.json
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\RideAndTrip.exe
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\QueuesSpooler.exe
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\QueuesSpooler.dll
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\RideAndTrip.dll
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\QueuesSpooler.pdb
+C:\Users\yisha\Downloads\Store Solution\Test\bin\Debug\netcoreapp3.1\RideAndTrip.pdb

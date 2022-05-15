@@ -1,0 +1,41 @@
+C:\Users\yisha\Downloads\GraphTest\bin\Debug\netcoreapp3.1\GraphTest.exe
+C:\Users\yisha\Downloads\GraphTest\bin\Debug\netcoreapp3.1\GraphTest.deps.json
+C:\Users\yisha\Downloads\GraphTest\bin\Debug\netcoreapp3.1\GraphTest.runtimeconfig.json
+C:\Users\yisha\Downloads\GraphTest\bin\Debug\netcoreapp3.1\GraphTest.runtimeconfig.dev.json
+C:\Users\yisha\Downloads\GraphTest\bin\Debug\netcoreapp3.1\GraphTest.dll
+C:\Users\yisha\Downloads\GraphTest\bin\Debug\netcoreapp3.1\GraphTest.pdb
+C:\Users\yisha\Downloads\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.csproj.AssemblyReference.cache
+C:\Users\yisha\Downloads\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.csproj.GenerateResource.cache
+C:\Users\yisha\Downloads\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yisha\Downloads\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.AssemblyInfoInputs.cache
+C:\Users\yisha\Downloads\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.AssemblyInfo.cs
+C:\Users\yisha\Downloads\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.csproj.CoreCompileInputs.cache
+C:\Users\yisha\Downloads\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.dll
+C:\Users\yisha\Downloads\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.pdb
+C:\Users\yisha\Downloads\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.genruntimeconfig.cache
+C:\Users\yisha\Downloads\GraphTest\bin\Debug\netcoreapp3.1\GraphTest.xml
+C:\Users\yisha\Downloads\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.Form1.resources
+C:\Users\yisha\Downloads\GraphTest\bin\Debug\netcoreapp3.1\store.exe
+C:\Users\yisha\Downloads\GraphTest\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\yisha\Downloads\GraphTest\bin\Debug\netcoreapp3.1\store.pdb
+C:\Users\yisha\Downloads\GraphTest\bin\Debug\netcoreapp3.1\store.exe.config
+C:\Users\yisha\Downloads\GraphTest\bin\Debug\netcoreapp3.1\EntityFramework.xml
+C:\Users\yisha\Downloads\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.csproj.CopyComplete
+C:\Users\yisha\Downloads\Store Solution\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.dll
+C:\Users\yisha\Downloads\Store Solution\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.pdb
+C:\Users\yisha\Downloads\Store Solution\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.csproj.AssemblyReference.cache
+C:\Users\yisha\Downloads\Store Solution\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.Properties.Resources.resources
+C:\Users\yisha\Downloads\Store Solution\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.Main_Apps.Form1.resources
+C:\Users\yisha\Downloads\Store Solution\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.csproj.GenerateResource.cache
+C:\Users\yisha\Downloads\Store Solution\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yisha\Downloads\Store Solution\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.AssemblyInfoInputs.cache
+C:\Users\yisha\Downloads\Store Solution\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.AssemblyInfo.cs
+C:\Users\yisha\Downloads\Store Solution\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.csproj.CoreCompileInputs.cache
+C:\Users\yisha\Downloads\Store Solution\GraphTest\bin\Debug\netcoreapp3.1\GraphTest.exe
+C:\Users\yisha\Downloads\Store Solution\GraphTest\bin\Debug\netcoreapp3.1\GraphTest.deps.json
+C:\Users\yisha\Downloads\Store Solution\GraphTest\bin\Debug\netcoreapp3.1\GraphTest.runtimeconfig.json
+C:\Users\yisha\Downloads\Store Solution\GraphTest\bin\Debug\netcoreapp3.1\GraphTest.runtimeconfig.dev.json
+C:\Users\yisha\Downloads\Store Solution\GraphTest\bin\Debug\netcoreapp3.1\GraphTest.dll
+C:\Users\yisha\Downloads\Store Solution\GraphTest\bin\Debug\netcoreapp3.1\GraphTest.pdb
+C:\Users\yisha\Downloads\Store Solution\GraphTest\bin\Debug\netcoreapp3.1\GraphTest.xml
+C:\Users\yisha\Downloads\Store Solution\GraphTest\obj\Debug\netcoreapp3.1\GraphTest.genruntimeconfig.cache

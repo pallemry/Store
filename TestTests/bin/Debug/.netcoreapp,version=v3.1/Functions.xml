@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Functions</name>
+    </assembly>
+    <members>
+        <member name="T:Functions.AdvancedPrinting.AdvancedConsolePrinter">
+            <summary>
+            This class contains can help with easier advanced printing <see cref="F:System.Int32.MaxValue">MAX</see>
+            Note that here you can also use 
+            <see href="https://docs.microsoft.com/dotnet/api/system.int32.maxvalue"/>
+            </summary>
+        </member>
+        <member name="M:Functions.AdvancedPrinting.AdvancedConsolePrinter.Print(System.String,Functions.AdvancedPrinting.AdvancedConsolePrinter.PrintType,System.Boolean)">
+            <!-- Failed to insert some or all of included XML --><include file="C:\Users\yisha\Downloads\Store Solution\Functions\Functions.xml" path="MyDocs//MyMembers[@name=&quot;test&quot;]" />
+        </member>
+        <member name="M:Functions.AdvancedPrinting.AdvancedConsolePrinter.PrintFormat(System.String,System.Boolean,System.ConsoleColor,System.Boolean)">
+            <summary>
+                <para>
+                    Used To print with special cases
+                </para>
+                <para>
+                    <code></code>
+                    <example>
+                        For Example: 
+                        <code>
+                            <paramref name="s"/> = `2`
+                        </code>
+                        This will result in "s" being sent as a message box.
+                    </example>
+                </para>
+            </summary>
+            <remarks>
+                <para>
+                    The following <c>Syntax</c> to the method is as following:
+                    <list type="bullet">
+                        <item>
+                            <term><c>!<paramref name="s"/>!</c></term>
+                            <desc>Prints <paramref name="s"/> as an error with the specified <see cref="P:Functions.AdvancedPrinting.AdvancedConsolePrinter.DefaultErrorColor"/></desc>
+                        </item>
+                        <item>
+                            <term><c>#<paramref name="s"/>#</c></term>
+                            <desc>Prints <paramref name="s"/> as completed with the specified <see cref="P:Functions.AdvancedPrinting.AdvancedConsolePrinter.DefaultCompletedColor"/></desc>
+                        </item>
+                        <item>
+                            <term><c>~<paramref name="s"/>~</c></term>
+                            <desc>Prints <paramref name="s"/> as mention with the specified <see cref="P:Functions.AdvancedPrinting.AdvancedConsolePrinter.DefaultHighlightColor"/></desc>
+                        </item>
+                        <item>
+                            <term><c>!<paramref name="s"/>!</c></term>
+                            <desc>Normal Message box containing <paramref name="s"/></desc>
+                        </item>
+                        <item>
+                            <term><c>`MSE..<paramref name="s"/>..MSE`</c></term>
+                            <desc>
+                                MSE at the start and end means Message Box
+                                <br></br>Error and you can use it to display normal errors
+                            </desc>
+                        </item>
+                        <item>
+                            <term><c>`MSD..<paramref name="s"/>..MSD`</c></term>
+                            <desc>
+                                MSD at the start and end means Message Box
+                                <br></br>Done and you can use it to display normal information to the user
+                            </desc>
+                        </item>
+                        <item>
+                            <term><c>`CC..<paramref name="s"/>..CC`</c></term>
+                            <desc>
+                                Prints as the color specified in <see cref="P:Functions.AdvancedPrinting.AdvancedConsolePrinter.DefaultCustomColor"/>
+                            </desc>
+                        </item>
+                    </list>
+                </para>
+                <br>
+                    <c><see langword = "IMPORTANT "/>:</c>
+                    <br></br>Please Note: In case <c><paramref name="s"/></c> starts with <c>'$$'</c> the different syntax and
+                    functions are <c><see langword="IGNORED"/></c> and the<br></br> text will be printed as
+                    it was was in the parameter <paramref name="s"/>
+                    without any special cases nor colors
+                </br>
+            </remarks>
+            <param name="s"></param>
+            <param name="ln"></param>
+        </member>
+        <member name="M:Functions.AdvancedPrinting.AdvancedConsolePrinter.ResetColors">
+            <summary>
+            Resets the default color for the different <c><see cref="T:Functions.AdvancedPrinting.AdvancedConsolePrinter.PrintType"/></c> passed in the
+            <c><see cref="M:Functions.AdvancedPrinting.AdvancedConsolePrinter.Print(System.String,Functions.AdvancedPrinting.AdvancedFormatter,System.Boolean,System.Boolean)"/> </c>method
+            </summary>
+        </member>
+        <member name="T:Functions.AdvancedPrinting.FormatterConstruction">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Functions.AdvancedPrinting.AdvancedFormatter.EndSeparator">
+            <summary>
+            nice val
+            </summary>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:Functions.AdvancedPrinting.AdvancedFormatter.#ctor(System.String,System.ConsoleColor,System.ConsoleColor,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="startSeparator"></param>
+            <param name="foreColor"></param>
+            <param name="backColor"></param>
+            <param name="endSeperator"></param>
+        </member>
+        <member name="M:Functions.AdvancedPrinting.AdvancedFormatter.#ctor(System.String,System.ConsoleColor,System.ConsoleColor,Functions.AdvancedPrinting.FormatterConstruction)">
+            <summary>
+            This one can use html and xml formatting.
+            </summary>
+            <param name="startSeparator"></param>
+            <param name="foreColor"></param>
+            <param name="backColor"></param>
+            <param name="endSeperator"></param>
+        </member>
+        <member name="M:Functions.AdvancedPrinting.AdvancedFormatter.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Functions.Calculator.ScreenCalculate.GetMiddleScreen">
+            <summary>
+            Get the middle screen point For example :
+            If the your screen width is <c>50px</c> and height is <c>30px</c>
+            than the returned <c>Point</c> is <c>(25, 15)</c>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Functions.Extensions.EnumerableExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Functions.Extensions.EnumerableExtension.TORS.Terminate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Functions.Extensions.EnumerableExtension.TORS.Silent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Functions.Extensions.EnumerableExtension.RemoveKeyEvent(System.Collections.Generic.ICollection{GraphTest.Base_Classes.Key},System.Windows.Forms.KeyEventArgs,Functions.Extensions.EnumerableExtension.TORS)">
+            <summary>
+            Remove a Potential key in the collection
+            </summary>
+            <param name="list">The list to edit</param>
+            <param name="e">The event to remove</param>
+            <param name="terminateOrSilent">Whether to remove and delete the object or silent it?</param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentOutOfRangeException"></exception>
+        </member>
+        <member name="M:Functions.Extensions.EnumerableExtension.DequeueLast``1(System.Collections.Generic.Queue{``0})">
+            <summary>
+            Removes The last Element in a queue.
+            </summary>
+            <typeparam name="TSource"></typeparam>
+            <param name="q">the q</param>
+        </member>
+        <member name="M:Functions.Extensions.EnumerableExtension.JoinTogether``1(System.Collections.Generic.Queue{``0},System.Collections.Generic.Queue{``0})">
+            <summary>
+            
+            </summary>
+            <typeparam name="TSource"></typeparam>
+            <param name="first"></param>
+            <param name="sec"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Functions.Extensions.EnumerableExtension.AllElementsToString``1(System.Collections.Generic.IEnumerable{``0},System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+            <param name="createNewLineUponVar"></param>
+            <typeparam name="TSource"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Functions.Extensions.EnumerableExtension.CloneByReference``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Clones an <see cref="T:System.Collections.Generic.IEnumerable`1"/> and returns it.
+            </summary>
+            <remarks>
+            Clones an <see cref="T:System.Collections.Generic.IEnumerable`1"/> from type <typeparamref name="TSource"/> into a new
+            <see cref="T:System.Collections.Generic.IEnumerable`1"/> of type <typeparamref name="TSource"/> and returns the new
+            <see cref="T:System.Collections.Generic.IEnumerable`1"/> that had been created
+            </remarks>
+            <param name="q"></param>
+            <typeparam name="TSource"></typeparam>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

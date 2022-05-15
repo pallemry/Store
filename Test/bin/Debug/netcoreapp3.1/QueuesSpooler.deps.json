@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "QueuesSpooler/1.0.0": {
+        "dependencies": {
+          "Functions": "1.1.0",
+          "RideAndTrip": "1.0.0"
+        },
+        "runtime": {
+          "QueuesSpooler.dll": {}
+        }
+      },
+      "Functions/1.1.0": {
+        "runtime": {
+          "Functions.dll": {}
+        }
+      },
+      "RideAndTrip/1.0.0": {
+        "dependencies": {
+          "Functions": "1.1.0"
+        },
+        "runtime": {
+          "RideAndTrip.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QueuesSpooler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Functions/1.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RideAndTrip/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

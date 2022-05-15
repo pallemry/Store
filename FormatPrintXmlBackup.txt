@@ -1,0 +1,67 @@
+/// <summary>
+        ///     <para>
+        ///         Used To print with special cases
+        ///     </para>
+        ///     <para>
+        ///         <code></code>
+        ///         <example>
+        ///             For Example: 
+        ///             <code>
+        ///                 <paramref name="s"/> = `2`
+        ///             </code>
+        ///             This will result in "s" being sent as a message box.
+        ///         </example>
+        ///     </para>
+        /// </summary>
+        /// <remarks>
+        ///     <para>
+        ///         The following <c>Syntax</c> to the method is as following:
+        ///         <list type="bullet|table">
+        ///             <item>
+        ///                 <term><c>!<paramref name="s"/>!</c></term>
+        ///                 <desc>Prints <paramref name="s"/> as an error with the specified <see cref="DefaultErrorColor"/></desc>
+        ///             </item>
+        ///             <item>
+        ///                 <term><c>#<paramref name="s"/>#</c></term>
+        ///                 <desc>Prints <paramref name="s"/> as completed with the specified <see cref="DefaultCompletedColor"/></desc>
+        ///             </item>
+        ///             <item>
+        ///                 <term><c>~<paramref name="s"/>~</c></term>
+        ///                 <desc>Prints <paramref name="s"/> as mention with the specified <see cref="DefaultHighlightColor"/></desc>
+        ///             </item>
+        ///             <item>
+        ///                 <term><c>!<paramref name="s"/>!</c></term>
+        ///                 <desc>Normal Message box containing <paramref name="s"/></desc>
+        ///             </item>
+        ///             <item>
+        ///                 <term><c>`MSE..<paramref name="s"/>..MSE`</c></term>
+        ///                 <desc>
+        ///                     MSE at the start and end means Message Box
+        ///                     <br></br>Error and you can use it to display normal errors
+        ///                 </desc>
+        ///             </item>
+        ///             <item>
+        ///                 <term><c>`MSD..<paramref name="s"/>..MSD`</c></term>
+        ///                 <desc>
+        ///                     MSD at the start and end means Message Box
+        ///                     <br></br>Done and you can use it to display normal information to the user
+        ///                 </desc>
+        ///             </item>
+        ///             <item>
+        ///                 <term><c>`CC..<paramref name="s"/>..CC`</c></term>
+        ///                 <desc>
+        ///                     Prints as the color specified in <see cref="DefaultCustomColor"/>
+        ///                 </desc>
+        ///             </item>
+        ///         </list>
+        ///     </para>
+        ///     <br>
+        ///         <c><see langword = "IMPORTANT "/>:</c>
+        ///         <br></br>Please Note: In case <c><paramref name="s"/></c> starts with <c>'$$'</c> the different syntax and
+        ///         functions are <c><see langword="IGNORED"/></c> and the<br></br> text will be printed as
+        ///         it was was in the parameter <paramref name="s"/>
+        ///         without any special cases nor colors
+        ///     </br>
+        /// </remarks>
+        /// <param name="s"></param>
+        /// <param name="ln"></param>

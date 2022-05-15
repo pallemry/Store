@@ -1,0 +1,68 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	  <ApplicationIcon />
+	  <Win32Resource />
+	  <Version>1.0.2</Version>
+	  <Authors>Yishai Israel</Authors>
+	  <Company>ACT ™ ©</Company>
+	  <Description>This API Allows all sort of Easier life with C# starting from extension methods for number like IsInRange(max, min), all
+the way to advanced console printing which is very usful and can bring life into your console application
+NOTE: The Advanced Printing, will take some more memory to function, so beaware.</Description>
+	  <Copyright>™</Copyright>
+	  <PackageLicenseExpression></PackageLicenseExpression>
+	  <PackageLicenseFile></PackageLicenseFile>
+	  <PackageIcon>34c6551de3120d74ee79059b5cd3fcae - computer-icon-cloud-computing.jpg</PackageIcon>
+	  <PackageIconUrl />
+	  <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageReleaseNotes>Fixed PrintFormat Method.</PackageReleaseNotes>
+	  <PackageTags>C# Advanced API</PackageTags>
+	  <NeutralLanguage>en</NeutralLanguage>
+	  <AssemblyVersion>1.0.2.1</AssemblyVersion>
+  </PropertyGroup>
+	
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\yisha\Downloads\Store Solution\Functions\Functions.xml</DocumentationFile>
+  </PropertyGroup>
+	
+  <ItemGroup>
+    <Compile Remove="obj\**" />
+    <EmbeddedResource Remove="obj\**" />
+    <None Remove="obj\**" />
+    <None Include="..\..\34c6551de3120d74ee79059b5cd3fcae - computer-icon-cloud-computing.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+	
+  <ItemGroup>
+    <Content Include="Functions.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <ProjectReference Include="..\GraphTest\GraphTest.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="obj\Debug\netcoreapp3.1\" />
+    <Folder Include="XML Docs\netcoreapp3.1\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

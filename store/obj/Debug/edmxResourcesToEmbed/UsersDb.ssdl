@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StoreModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ClientData">
+    <Key>
+      <PropertyRef Name="ClientId" />
+    </Key>
+    <Property Name="ClientId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClientName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ClientLastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ClientCell" Type="nchar" MaxLength="10" />
+    <Property Name="ClientPayment" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="HasClubCard" Type="bit" />
+    <Property Name="ClientPassword" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="da">
+    <Key>
+      <PropertyRef Name="DW" />
+    </Key>
+    <Property Name="DW" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ManagerData">
+    <Key>
+      <PropertyRef Name="ManagerID" />
+    </Key>
+    <Property Name="ManagerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ManagerFirstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ManagerLastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ManagerPassword" Type="nvarchar" MaxLength="50" />
+    <Property Name="ManagerCell" Type="nchar" MaxLength="10" />
+    <Property Name="ManagerWorkHours" Type="int" />
+    <Property Name="ManagerSalaryForHour" Type="int" />
+  </EntityType>
+  <EntityType Name="SellersData">
+    <Key>
+      <PropertyRef Name="SellerId" />
+    </Key>
+    <Property Name="SellerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SellerFirstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="SellerLastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="SellerCell" Type="nvarchar" MaxLength="50" />
+    <Property Name="SellerPassword" Type="nvarchar" MaxLength="50" />
+    <Property Name="SellerWorkHours" Type="int" />
+    <Property Name="SellerSalaryForHour" Type="int" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Clients" />
+    </Key>
+    <Property Name="Clients" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Sellers" Type="int" Nullable="false" />
+    <Property Name="Managers" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="d" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Users_ClientData">
+    <End Role="ClientData" Type="Self.ClientData" Multiplicity="1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="ClientData">
+        <PropertyRef Name="ClientId" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="Clients" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_da">
+    <End Role="da" Type="Self.da" Multiplicity="1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="da">
+        <PropertyRef Name="DW" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="d" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_MangerData">
+    <End Role="ManagerData" Type="Self.ManagerData" Multiplicity="1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ManagerData">
+        <PropertyRef Name="ManagerID" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="Managers" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_SellersData">
+    <End Role="SellersData" Type="Self.SellersData" Multiplicity="1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SellersData">
+        <PropertyRef Name="SellerId" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="Sellers" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="StoreModelStoreContainer">
+    <EntitySet Name="ClientData" EntityType="Self.ClientData" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="da" EntityType="Self.da" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ManagerData" EntityType="Self.ManagerData" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SellersData" EntityType="Self.SellersData" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Users_ClientData" Association="Self.FK_Users_ClientData">
+      <End Role="ClientData" EntitySet="ClientData" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_da" Association="Self.FK_Users_da">
+      <End Role="da" EntitySet="da" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_MangerData" Association="Self.FK_Users_MangerData">
+      <End Role="ManagerData" EntitySet="ManagerData" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_SellersData" Association="Self.FK_Users_SellersData">
+      <End Role="SellersData" EntitySet="SellersData" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

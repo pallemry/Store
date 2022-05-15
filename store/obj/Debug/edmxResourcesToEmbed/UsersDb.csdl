@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StoreModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ClientData">
+    <Key>
+      <PropertyRef Name="ClientId" />
+    </Key>
+    <Property Name="ClientId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClientName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ClientLastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ClientCell" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="ClientPayment" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="HasClubCard" Type="Boolean" />
+    <Property Name="ClientPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="User" Relationship="StoreModel.FK_Users_ClientData" FromRole="ClientData" ToRole="User" />
+  </EntityType>
+  <EntityType Name="ManagerData">
+    <Key>
+      <PropertyRef Name="ManagerID" />
+    </Key>
+    <Property Name="ManagerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ManagerFirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ManagerLastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ManagerPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ManagerCell" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="ManagerWorkHours" Type="Int32" />
+    <Property Name="ManagerSalaryForHour" Type="Int32" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Users_Users" FromRole="ManagerData" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="SellersData">
+    <Key>
+      <PropertyRef Name="SellerId" />
+    </Key>
+    <Property Name="SellerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SellerFirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SellerLastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SellerCell" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SellerPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SellerWorkHours" Type="Int32" />
+    <Property Name="SellerSalaryForHour" Type="Int32" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Users_SellersData" FromRole="SellersData" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Clients" />
+    </Key>
+    <Property Name="Clients" Type="Int32" Nullable="false" />
+    <Property Name="Sellers" Type="Int32" Nullable="false" />
+    <Property Name="Managers" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="ManagerData" Relationship="Self.FK_Users_Users" FromRole="Users" ToRole="ManagerData" />
+    <NavigationProperty Name="SellersData" Relationship="Self.FK_Users_SellersData" FromRole="Users" ToRole="SellersData" />
+    <Property Name="d" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ClientData" Relationship="StoreModel.FK_Users_ClientData" FromRole="User" ToRole="ClientData" />
+    <NavigationProperty Name="da" Relationship="StoreModel.FK_Users_da" FromRole="User" ToRole="da" />
+  </EntityType>
+  <Association Name="FK_Users_Users">
+    <End Role="ManagerData" Type="Self.ManagerData" Multiplicity="1" />
+    <End Role="Users" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ManagerData">
+        <PropertyRef Name="ManagerID" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="Managers" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_SellersData">
+    <End Role="SellersData" Type="Self.SellersData" Multiplicity="1" />
+    <End Role="Users" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SellersData">
+        <PropertyRef Name="SellerId" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="Sellers" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="StoreEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ClientDatas" EntityType="Self.ClientData" />
+    <EntitySet Name="ManagerDatas" EntityType="Self.ManagerData" />
+    <EntitySet Name="SellersDatas" EntityType="Self.SellersData" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_Users_Users" Association="Self.FK_Users_Users">
+      <End Role="ManagerData" EntitySet="ManagerDatas" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_SellersData" Association="Self.FK_Users_SellersData">
+      <End Role="SellersData" EntitySet="SellersDatas" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <EntitySet Name="das" EntityType="StoreModel.da" />
+    <AssociationSet Name="FK_Users_ClientData" Association="StoreModel.FK_Users_ClientData">
+      <End Role="ClientData" EntitySet="ClientDatas" />
+      <End Role="User" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_da" Association="StoreModel.FK_Users_da">
+      <End Role="da" EntitySet="das" />
+      <End Role="User" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="da">
+    <Key>
+      <PropertyRef Name="DW" />
+    </Key>
+    <Property Name="DW" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Users" Relationship="StoreModel.FK_Users_da" FromRole="da" ToRole="User" />
+  </EntityType>
+  <Association Name="FK_Users_ClientData">
+    <End Type="StoreModel.ClientData" Role="ClientData" Multiplicity="1" />
+    <End Type="StoreModel.User" Role="User" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="ClientData">
+        <PropertyRef Name="ClientId" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="Clients" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_da">
+    <End Type="StoreModel.da" Role="da" Multiplicity="1" />
+    <End Type="StoreModel.User" Role="User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="da">
+        <PropertyRef Name="DW" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="d" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

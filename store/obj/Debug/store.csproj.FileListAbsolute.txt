@@ -1,0 +1,60 @@
+D:\פרוייקט c#\store\obj\Debug\store.csprojAssemblyReference.cache
+D:\פרוייקט c#\store\obj\Debug\store.Properties.Resources.resources
+D:\פרוייקט c#\store\obj\Debug\store.csproj.GenerateResource.cache
+D:\פרוייקט c#\store\obj\Debug\store.csproj.CoreCompileInputs.cache
+D:\שנה ב מחשבים\פרוייקט c#\store\obj\Debug\store.csprojAssemblyReference.cache
+D:\שנה ב מחשבים\פרוייקט c#\store\obj\Debug\store.Form1.resources
+D:\שנה ב מחשבים\פרוייקט c#\store\obj\Debug\store.Properties.Resources.resources
+D:\שנה ב מחשבים\פרוייקט c#\store\obj\Debug\store.csproj.GenerateResource.cache
+D:\שנה ב מחשבים\פרוייקט c#\store\obj\Debug\store.csproj.CoreCompileInputs.cache
+D:\שנה ב מחשבים\פרוייקט c#\store\bin\Debug\store.exe.config
+D:\שנה ב מחשבים\פרוייקט c#\store\bin\Debug\store.exe
+D:\שנה ב מחשבים\פרוייקט c#\store\bin\Debug\store.pdb
+D:\שנה ב מחשבים\פרוייקט c#\store\obj\Debug\store.exe
+D:\שנה ב מחשבים\פרוייקט c#\store\obj\Debug\store.pdb
+C:\Users\מיכל\Downloads\store (2)\store\bin\Debug\store.exe.config
+C:\Users\מיכל\Downloads\store (2)\store\bin\Debug\store.exe
+C:\Users\מיכל\Downloads\store (2)\store\bin\Debug\store.pdb
+C:\Users\מיכל\Downloads\store (2)\store\bin\Debug\EntityFramework.dll
+C:\Users\מיכל\Downloads\store (2)\store\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\מיכל\Downloads\store (2)\store\bin\Debug\EntityFramework.xml
+C:\Users\מיכל\Downloads\store (2)\store\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\מיכל\Downloads\store (2)\store\obj\Debug\store.csprojAssemblyReference.cache
+C:\Users\מיכל\Downloads\store (2)\store\obj\Debug\store.Form1.resources
+C:\Users\מיכל\Downloads\store (2)\store\obj\Debug\store.Properties.Resources.resources
+C:\Users\מיכל\Downloads\store (2)\store\obj\Debug\store.csproj.GenerateResource.cache
+C:\Users\מיכל\Downloads\store (2)\store\obj\Debug\store.csproj.CoreCompileInputs.cache
+C:\Users\מיכל\Downloads\store (2)\store\obj\Debug\store.csproj.CopyComplete
+C:\Users\מיכל\Downloads\store (2)\store\obj\Debug\store.exe
+C:\Users\מיכל\Downloads\store (2)\store\obj\Debug\store.pdb
+C:\Users\yisha\Downloads\store\bin\Debug\store.exe.config
+C:\Users\yisha\Downloads\store\bin\Debug\store.exe
+C:\Users\yisha\Downloads\store\bin\Debug\store.pdb
+C:\Users\yisha\Downloads\store\bin\Debug\EntityFramework.dll
+C:\Users\yisha\Downloads\store\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yisha\Downloads\store\bin\Debug\EntityFramework.xml
+C:\Users\yisha\Downloads\store\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yisha\Downloads\store\obj\Debug\store.csproj.AssemblyReference.cache
+C:\Users\yisha\Downloads\store\obj\Debug\store.Form1.resources
+C:\Users\yisha\Downloads\store\obj\Debug\store.Properties.Resources.resources
+C:\Users\yisha\Downloads\store\obj\Debug\store.csproj.GenerateResource.cache
+C:\Users\yisha\Downloads\store\obj\Debug\store.csproj.CoreCompileInputs.cache
+C:\Users\yisha\Downloads\store\obj\Debug\store.csproj.CopyComplete
+C:\Users\yisha\Downloads\store\obj\Debug\store.exe
+C:\Users\yisha\Downloads\store\obj\Debug\store.pdb
+C:\Users\yisha\Downloads\Store Solution\store\bin\Debug\store.exe.config
+C:\Users\yisha\Downloads\Store Solution\store\bin\Debug\store.exe
+C:\Users\yisha\Downloads\Store Solution\store\bin\Debug\store.pdb
+C:\Users\yisha\Downloads\Store Solution\store\bin\Debug\EntityFramework.dll
+C:\Users\yisha\Downloads\Store Solution\store\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yisha\Downloads\Store Solution\store\bin\Debug\EntityFramework.xml
+C:\Users\yisha\Downloads\Store Solution\store\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yisha\Downloads\Store Solution\store\obj\Debug\store.csproj.AssemblyReference.cache
+C:\Users\yisha\Downloads\Store Solution\store\obj\Debug\store.Properties.Resources.resources
+C:\Users\yisha\Downloads\Store Solution\store\obj\Debug\store.Main.Form1.resources
+C:\Users\yisha\Downloads\Store Solution\store\obj\Debug\store.csproj.GenerateResource.cache
+C:\Users\yisha\Downloads\Store Solution\store\obj\Debug\store.csproj.CoreCompileInputs.cache
+C:\Users\yisha\Downloads\Store Solution\store\obj\Debug\store.csproj.CopyComplete
+C:\Users\yisha\Downloads\Store Solution\store\obj\Debug\store.exe
+C:\Users\yisha\Downloads\Store Solution\store\obj\Debug\store.pdb
+C:\Users\yisha\Downloads\Store Solution\store\obj\Debug\store.csproj.SuggestedBindingRedirects.cache

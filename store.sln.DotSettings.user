@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f6c2ebf0_002Ded7b_002D4360_002D8e80_002Dc062d8fba18a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;TestTests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Users\yisha\Downloads\Store Solution\TestTests" Presentation="&amp;lt;TestTests&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=Delegates_002FForm1/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=GraphTest_002FMain_0020Apps_002FForm1/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=store_002FMain_002FForm1/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=store_002FProperties_002FResources/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/Initialized/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=chartoadd/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=csporj/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>

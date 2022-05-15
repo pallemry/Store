@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GraphTest</name>
+    </assembly>
+    <members>
+        <member name="T:GraphTest.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:GraphTest.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:GraphTest.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:GraphTest.Properties.Resources._3840x2160_lake_dark_night_starry_sky_landscape">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="T:GraphTest.Extensions.EnumerableExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:GraphTest.Extensions.EnumerableExtension.TORS.Terminate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:GraphTest.Extensions.EnumerableExtension.TORS.Silent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:GraphTest.Extensions.EnumerableExtension.RemoveKeyEvent(System.Collections.Generic.ICollection{GraphTest.Base_Classes.Key},System.Windows.Forms.KeyEventArgs,GraphTest.Extensions.EnumerableExtension.TORS)">
+            <summary>
+            Remove a Potential key in the collection
+            </summary>
+            <param name="list">The list to edit</param>
+            <param name="e">The event to remove</param>
+            <param name="terminateOrSilent">Whether to remove and delete the object or silent it?</param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentOutOfRangeException"></exception>
+        </member>
+        <member name="M:GraphTest.Main_Apps.Form1.Form1_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            
+            </summary>
+            <summary>
+            </summary>wwwww
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:GraphTest.Main_Apps.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:GraphTest.Main_Apps.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:GraphTest.Main_Apps.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:GraphTest.Main_Apps.Program.Main">
+            <summary>
+             The main entry point for the application.
+            </summary>
+        </member>
+    </members>
+</doc>

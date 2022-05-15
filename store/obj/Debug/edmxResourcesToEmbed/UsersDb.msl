@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StoreModelStoreContainer" CdmEntityContainer="StoreEntities">
+    <EntitySetMapping Name="ClientDatas">
+      <EntityTypeMapping TypeName="StoreModel.ClientData">
+        <MappingFragment StoreEntitySet="ClientData">
+          <ScalarProperty Name="ClientId" ColumnName="ClientId" />
+          <ScalarProperty Name="ClientName" ColumnName="ClientName" />
+          <ScalarProperty Name="ClientLastName" ColumnName="ClientLastName" />
+          <ScalarProperty Name="ClientCell" ColumnName="ClientCell" />
+          <ScalarProperty Name="ClientPayment" ColumnName="ClientPayment" />
+          <ScalarProperty Name="HasClubCard" ColumnName="HasClubCard" />
+          <ScalarProperty Name="ClientPassword" ColumnName="ClientPassword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ManagerDatas">
+      <EntityTypeMapping TypeName="StoreModel.ManagerData">
+        <MappingFragment StoreEntitySet="ManagerData">
+          <ScalarProperty Name="ManagerID" ColumnName="ManagerID" />
+          <ScalarProperty Name="ManagerFirstName" ColumnName="ManagerFirstName" />
+          <ScalarProperty Name="ManagerLastName" ColumnName="ManagerLastName" />
+          <ScalarProperty Name="ManagerPassword" ColumnName="ManagerPassword" />
+          <ScalarProperty Name="ManagerCell" ColumnName="ManagerCell" />
+          <ScalarProperty Name="ManagerWorkHours" ColumnName="ManagerWorkHours" />
+          <ScalarProperty Name="ManagerSalaryForHour" ColumnName="ManagerSalaryForHour" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SellersDatas">
+      <EntityTypeMapping TypeName="StoreModel.SellersData">
+        <MappingFragment StoreEntitySet="SellersData">
+          <ScalarProperty Name="SellerId" ColumnName="SellerId" />
+          <ScalarProperty Name="SellerFirstName" ColumnName="SellerFirstName" />
+          <ScalarProperty Name="SellerLastName" ColumnName="SellerLastName" />
+          <ScalarProperty Name="SellerCell" ColumnName="SellerCell" />
+          <ScalarProperty Name="SellerPassword" ColumnName="SellerPassword" />
+          <ScalarProperty Name="SellerWorkHours" ColumnName="SellerWorkHours" />
+          <ScalarProperty Name="SellerSalaryForHour" ColumnName="SellerSalaryForHour" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="StoreModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="d" ColumnName="d" />
+          <ScalarProperty Name="Clients" ColumnName="Clients" />
+          <ScalarProperty Name="Sellers" ColumnName="Sellers" />
+          <ScalarProperty Name="Managers" ColumnName="Managers" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="das">
+      <EntityTypeMapping TypeName="StoreModel.da">
+        <MappingFragment StoreEntitySet="da">
+          <ScalarProperty Name="DW" ColumnName="DW" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

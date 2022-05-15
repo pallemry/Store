@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "x36Bj7L7j5KOUMVPGJ5wgLl2iECL6uHbqNzkDGMKS5oYaxCQHyvmqY0rHpaRqJ8TfQP0SADZzHCWJApshe9B/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yisha\\Downloads\\Store Solution\\QueuesSpooler\\QueuesSpooler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yisha\\.nuget\\packages\\functions\\1.1.0\\functions.1.1.0.nupkg.sha512",
+    "C:\\Users\\yisha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "BJLJ8YraQjysz+tHYASl/ANxd/0HHvjzJWMAs9A8uwwGjrSlO3Y9U+3PjMumykW+UqNUKtKBPmjm+YCvGEJhBw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yisha\\Downloads\\Store Solution\\RideAndTrip\\RideAndTrip.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yisha\\.nuget\\packages\\functions\\1.1.0\\functions.1.1.0.nupkg.sha512",
+    "C:\\Users\\yisha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}

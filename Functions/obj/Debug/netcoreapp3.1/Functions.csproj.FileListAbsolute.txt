@@ -1,0 +1,13 @@
+C:\Users\yisha\Downloads\Store Solution\Functions\bin\Debug\netcoreapp3.1\Functions.deps.json
+C:\Users\yisha\Downloads\Store Solution\Functions\bin\Debug\netcoreapp3.1\Functions.dll
+C:\Users\yisha\Downloads\Store Solution\Functions\bin\Debug\netcoreapp3.1\Functions.pdb
+C:\Users\yisha\Downloads\Store Solution\Functions\obj\Debug\netcoreapp3.1\Functions.csproj.AssemblyReference.cache
+C:\Users\yisha\Downloads\Store Solution\Functions\obj\Debug\netcoreapp3.1\Functions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yisha\Downloads\Store Solution\Functions\obj\Debug\netcoreapp3.1\Functions.AssemblyInfoInputs.cache
+C:\Users\yisha\Downloads\Store Solution\Functions\obj\Debug\netcoreapp3.1\Functions.AssemblyInfo.cs
+C:\Users\yisha\Downloads\Store Solution\Functions\obj\Debug\netcoreapp3.1\Functions.csproj.CoreCompileInputs.cache
+C:\Users\yisha\Downloads\Store Solution\Functions\obj\Debug\netcoreapp3.1\Functions.dll
+C:\Users\yisha\Downloads\Store Solution\Functions\obj\Debug\netcoreapp3.1\Functions.pdb
+C:\Users\yisha\Downloads\Store Solution\Functions\bin\Debug\netcoreapp3.1\Functions.xml
+C:\Users\yisha\Downloads\Store Solution\Functions\obj\Debug\netcoreapp3.1\Functions.Properties.Resources.resources
+C:\Users\yisha\Downloads\Store Solution\Functions\obj\Debug\netcoreapp3.1\Functions.csproj.GenerateResource.cache

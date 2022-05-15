@@ -1,0 +1,131 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Functions/1.1.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Functions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Functions.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "RideAndTrip/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Functions": "1.1.0"
+        },
+        "compile": {
+          "bin/placeholder/RideAndTrip.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RideAndTrip.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Functions/1.1.0": {
+      "type": "project",
+      "path": "../Functions/Functions.csproj",
+      "msbuildProject": "../Functions/Functions.csproj"
+    },
+    "RideAndTrip/1.0.0": {
+      "type": "project",
+      "path": "../RideAndTrip/RideAndTrip.csproj",
+      "msbuildProject": "../RideAndTrip/RideAndTrip.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Functions >= 1.1.0",
+      "RideAndTrip >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\yisha\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\yisha\\Downloads\\Store Solution\\QueuesSpooler\\QueuesSpooler.csproj",
+      "projectName": "QueuesSpooler",
+      "projectPath": "C:\\Users\\yisha\\Downloads\\Store Solution\\QueuesSpooler\\QueuesSpooler.csproj",
+      "packagesPath": "C:\\Users\\yisha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yisha\\Downloads\\Store Solution\\QueuesSpooler\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\yisha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\yisha\\Downloads\\Store Solution\\Functions\\bin": {},
+        "C:\\Users\\yisha\\source\\repos\\ChatTogether\\Form Functions\\bin": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\yisha\\Downloads\\Store Solution\\Functions\\Functions.csproj": {
+              "projectPath": "C:\\Users\\yisha\\Downloads\\Store Solution\\Functions\\Functions.csproj"
+            },
+            "C:\\Users\\yisha\\Downloads\\Store Solution\\RideAndTrip\\RideAndTrip.csproj": {
+              "projectPath": "C:\\Users\\yisha\\Downloads\\Store Solution\\RideAndTrip\\RideAndTrip.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.21, 3.1.21]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
